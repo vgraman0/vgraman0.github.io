@@ -14,10 +14,10 @@ group :jekyll_plugins do
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-regex-replace'
-    gem 'jekyll-scholar'
+    # gem 'jekyll-scholar'  # Disabled - not using publications
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
-    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
+    # gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"  # Disabled - issues on Windows
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'

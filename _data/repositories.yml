@@ -1,14 +1,23 @@
-github_users:
-  - torvalds
-  - alshedivat
+# This file contains manually curated repositories to display in the repositories gallery
+# Each repository entry should include:
+# - name: The repository name
+# - description: A brief description of the project
+# - url: The full GitHub URL to the repository
+# - language: Primary programming language
+# - tags: List of relevant tags/topics
+# - thumbnail: (Optional) Path to a thumbnail image in /assets/img/repos/
 
-repo_description_lines_max: 2
+# Example repository entry (delete this and add your own):
+# - name: example-project
+#   description: A sample project demonstrating cool features
+#   url: https://github.com/yourusername/example-project
+#   language: Python
+#   tags:
+#     - machine-learning
+#     - data-science
+#   thumbnail: /assets/img/repos/example-thumb.jpg
+#   stars: 42
+#   featured: true  # Set to true to feature this repo prominently
 
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+# Add your repositories below:
+repositories: []

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test:*)",
+      "Bash(ruby --version:*)",
+      "Bash(winget install:*)",
+      "Bash(\"/c/Ruby33-x64/bin/ruby.exe\" --version)",
+      "Bash(\"/c/Ruby33-x64/bin/gem.bat\" install bundler)",
+      "Bash(\"/c/Ruby33-x64/bin/gem.cmd\" install bundler)",
+      "Bash(\"/c/Ruby33-x64/bin/bundle.cmd\" install)",
+      "Bash(\"/c/Ruby33-x64/bin/bundle.bat\" install)",
+      "Bash(\"/c/Ruby33-x64/bin/bundle.bat\" exec jekyll serve)",
+      "Bash(export PATH=\"/c/Ruby33-x64/bin:$PATH\")",
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(\"/c/Ruby33-x64/bin/bundle.bat\" exec jekyll clean)",
+      "Bash(\"/c/Ruby33-x64/bin/bundle.bat\" exec jekyll build)",
+      "Bash(\"/c/Ruby33-x64/bin/bundle.bat\" exec jekyll serve --host 127.0.0.1 --port 4000)",
+      "Bash(\"/c/Ruby33-x64/bin/bundle.bat\" exec jekyll serve --host 0.0.0.0 --port 4000)",
+      "Bash(git add:*)"
+    ]
+  }
+}
