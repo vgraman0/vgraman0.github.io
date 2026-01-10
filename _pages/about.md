@@ -6,12 +6,9 @@ subtitle: Software Engineer. Technical Writer. Lifelong Learner.
 
 profile:
   align: right
-  image:   # Add your profile picture to assets/img/prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Update with your</p>
-    <p>location or</p>
-    <p>other info</p>
+  image: prof_pic.jpg
+  image_circular: true # crops the image to make it circular
+  more_info:
 
 selected_papers: false # publications feature disabled
 social: true # includes social icons at the bottom of the page
@@ -41,4 +38,4 @@ Feel free to explore, and don't hesitate to reach out through any of the social 
 
 ---
 
-*Update this page with your own bio, interests, and any other information you'd like to share.*
+*Current interests: Deep learning, distributed systems, clean code, options theory*
