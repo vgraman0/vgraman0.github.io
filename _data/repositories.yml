@@ -20,4 +20,36 @@
 #   featured: true  # Set to true to feature this repo prominently
 
 # Add your repositories below:
-repositories: []
+repositories:
+  - name: deep-learning-notebook
+    description: Comprehensive deep learning notebooks covering fundamental concepts, architectures, and practical implementations
+    url: https://github.com/vgraman0/deep-learning-notebook
+    language: Python
+    tags:
+      - deep-learning
+      - neural-networks
+      - jupyter-notebooks
+      - machine-learning
+    featured: true
+
+  - name: cs231n-deep-learning
+    description: Stanford CS231n course materials and assignments - Convolutional Neural Networks for Visual Recognition
+    url: https://github.com/vgraman0/cs231n-deep-learning
+    language: Python
+    tags:
+      - computer-vision
+      - cnn
+      - stanford-cs231n
+      - deep-learning
+    featured: true
+
+  - name: system-design
+    description: Collection of system design patterns, architectures, and solutions for building scalable distributed systems
+    url: https://github.com/vgraman0/system-design
+    language: Markdown
+    tags:
+      - system-design
+      - distributed-systems
+      - architecture
+      - scalability
+    featured: true
