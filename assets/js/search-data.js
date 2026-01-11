@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-from-chicago-to-mumbai-a-year-of-shifting-gears-and-building-foundations",
+        },{id: "post-chapter-3-hedging-strategies-using-futures",
+        
+          title: "Chapter 3: Hedging Strategies Using Futures",
+        
+        description: "Notes on hedging strategies",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hull-options-ch3/";
+          
+        },
+      },{id: "post-from-chicago-to-mumbai-a-year-of-shifting-gears-and-building-foundations",
         
           title: "From Chicago to Mumbai: A Year of Shifting Gears and Building Foundations",
         
@@ -71,13 +82,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
