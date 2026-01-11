@@ -5,6 +5,10 @@ window.MathJax = {
       ["$", "$"],
       ["\\(", "\\)"],
     ],
+    displayMath: [
+      ["$$", "$$"],
+      ["\\[", "\\]"],
+    ],
   },
   options: {
     renderActions: {
@@ -15,6 +19,15 @@ window.MathJax = {
           style.innerHTML = `
           .mjx-container {
             color: inherit;
+          }
+          .mjx-container[jax="CHTML"][display="true"] {
+            display: block;
+            text-align: center;
+            margin: 1em 0;
+            overflow: visible !important;
+          }
+          mjx-container {
+            overflow: visible !important;
           }
         `;
           document.head.appendChild(style);
