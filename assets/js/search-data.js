@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-welcome",
+        },{id: "post-from-chicago-to-mumbai-a-year-of-shifting-gears-and-building-foundations",
         
-          title: "Welcome",
+          title: "From Chicago to Mumbai: A Year of Shifting Gears and Building Foundations",
         
         description: "2025 reflection + 2026 broad goals",
         section: "Posts",
