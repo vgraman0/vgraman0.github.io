@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-books",
           title: "books",
-          description: "Technical reading list organized by interest",
+          description: "Technical reading list separated by topic area",
           section: "Navigation",
           handler: () => {
             window.location.href = "/books/";
