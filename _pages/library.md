@@ -73,7 +73,7 @@ details h3 { font-size: 1rem; margin-top: 1rem; margin-bottom: 0.5rem; }
 <details markdown="1">
 <summary>Quant</summary>
 
-- <span class="status reviewing"></span>*Options, Futures, and Other Derivatives* - John C. Hull
+- <span class="status reviewing"></span>*Options, Futures, and Other Derivatives* - John C. Hull — [notes](/blog/category/hull-options/)
 - *The Concepts and Practice of Mathematical Finance* - Mark Joshi
 - *Advances in Financial Machine Learning* - Marcos López de Prado
 
