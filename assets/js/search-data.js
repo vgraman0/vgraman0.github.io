@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-3-hedging-strategies-using-futures-hull",
+        },{id: "post-hull-ch-3-hedging-strategies-using-futures",
         
-          title: "3. Hedging Strategies Using Futures (Hull)",
+          title: "Hull Ch 3: Hedging Strategies Using Futures",
         
         description: "From Hull, Options, Futures, and Other Derivatives",
         section: "Posts",
