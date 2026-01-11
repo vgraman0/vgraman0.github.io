@@ -30,7 +30,6 @@ I'm a Software Engineer at IMC Trading, where I work on the valuation team for F
 
 **What you'll find here:**
 - **[Blog](/blog/)**: Technical notes, interesting discoveries, and lessons learned
-- **[Projects](/projects/)**: A showcase of my work with live demos and source code
 - **[Library](/library/)**: Books, courses, and learning resources
 - **[Repositories](/repositories/)**: Curated selection of my open-source contributions
 
