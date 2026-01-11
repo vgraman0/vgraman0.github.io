@@ -2,7 +2,7 @@
 layout: post
 title: "Chapter 3: Hedging Strategies Using Futures"
 date: 2026-01-11 12:00:00
-description: Notes on hedging strategies 
+description: From Hull, *Options, Futures, and Other Derivatives* 
 tags: options derivatives hedging
 categories: hull-options
 giscus_comments: false
@@ -39,7 +39,7 @@ $$\text{Basis} = \text{Spot Price} - \text{Futures Price}$$
 ### Cross Hedging & Minimum Variance Hedge Ratio
 When the asset being hedged is not the same as the underlying of the futures contract, we face **cross hedging risk**. We must find the optimal hedge ratio ($h^*$) that minimizes the variance of the hedged portfolio.
 
-#### Calculus Derivation
+####  Derivation
 The change in the value of a hedged position is $\Delta P = \Delta S - h \Delta F$. To minimize risk, we minimize the variance:
 $$
 \begin{aligned}
@@ -47,6 +47,8 @@ $$
 &= \sigma_S^2 + h^2 \sigma_F^2 - 2h \rho \sigma_S \sigma_F
 \end{aligned}
 $$
+
+
 Taking the derivative with respect to $h$ and setting it to zero:
 $$\frac{d}{dh} Var(\Delta P) = 2h \sigma_F^2 - 2 \rho \sigma_S \sigma_F = 0$$
 
