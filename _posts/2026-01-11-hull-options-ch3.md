@@ -2,7 +2,7 @@
 layout: post
 title: "Chapter 3: Hedging Strategies Using Futures"
 date: 2026-01-11 12:00:00
-description: From Hull, *Options, Futures, and Other Derivatives* 
+description: From Hull, Options, Futures, and Other Derivatives
 tags: options derivatives hedging
 categories: hull-options
 giscus_comments: false
