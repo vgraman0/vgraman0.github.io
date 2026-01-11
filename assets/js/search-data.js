@@ -37,11 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-welcome-to-my-technical-blog",
+        },{id: "post-welcome",
         
-          title: "Welcome to My Technical Blog",
+          title: "Welcome",
         
-        description: "First post - introducing this blog and what to expect",
+        description: "2025 reflection + 2026 broad goals",
         section: "Posts",
         handler: () => {
           
