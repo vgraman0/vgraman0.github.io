@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-books",
-          title: "books",
-          description: "Technical reading list separated by topic area",
+        },{id: "nav-library",
+          title: "library",
+          description: "Books, courses, and learning resources by topic",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/library/";
           },
         },{id: "nav-repositories",
           title: "repositories",
