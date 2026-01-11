@@ -1,19 +1,46 @@
 ---
-layout: book-shelf
+layout: page
 title: books
 permalink: /books/
-description: My reading list with reviews and notes
+description: Technical reading list organized by interest
 nav: true
 nav_order: 3
-collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+## Distributed Systems
 
-## My Reading Journey
+- *Designing Data-Intensive Applications* - Martin Kleppmann
+- *Database Internals* - Alex Petrov
 
-This is my personal reading collection where I track books I'm reading, share my thoughts through reviews, and keep notes on key insights that resonate with me.
 
-Browse by status below, or explore all books. Click on any book to read my full review and notes.
+## Deep Learning
+
+- *Deep Learning* - Ian Goodfellow, Yoshua Bengio, Aaron Courville
+- *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* - Aurélien Géron
+
+## Language Specifics
+
+- *Effective Modern C++* - Scott Meyers
+- *The Rust Programming Language* - Steve Klabnik, Carol Nichols
+
+## Coding Best Practices
+
+## Quant
+
+- *Options, Futures, and Other Derivatives* - John C. Hull 
+- *Advances in Financial Machine Learning* - Marcos López de Prado
+
+
+## Lecture Notes
+
+Some notes from courses at UC Berkeley.
+
+- [PDEs II (Math 222B)](/assets/handouts/math222b.pdf)
+- [Probability Theory (Math 218A)](/assets/handouts/math218a.pdf)
+- [Complex Analysis (Math 205)](/assets/handouts/math205.pdf)
+- [Algebraic Topology (Math 215)](/assets/handouts/math215.pdf)
+- [Convex Optimization](/assets/handouts/cvxbook.pdf)
+- [Deep Learning (CS 182)](/assets/handouts/cs182.pdf)
+- [Information Theory](/assets/handouts/info.pdf)
+- [Generating Functions](/assets/handouts/genfunc.pdf)
+
