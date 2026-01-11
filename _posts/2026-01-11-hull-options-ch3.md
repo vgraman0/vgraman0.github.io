@@ -40,7 +40,7 @@ $$\text{Basis} = \text{Spot Price} - \text{Futures Price}$$
 ### Cross Hedging & Minimum Variance Hedge Ratio
 When the asset being hedged is not the same as the underlying of the futures contract, we face **cross hedging risk**. We must find the optimal hedge ratio ($h^*$) that minimizes the variance of the hedged portfolio.
 
-####  Derivation
+#### Derivation
 The change in the value of a hedged position is $\Delta P = \Delta S - h \Delta F$. To minimize risk, we minimize the variance:
 
 $$
