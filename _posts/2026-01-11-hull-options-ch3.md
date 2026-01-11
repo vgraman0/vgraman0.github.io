@@ -29,6 +29,7 @@ This chapter focuses on the practical application of futures: protecting against
 
 ### Basis Risk
 In a perfect world, the spot price ($S$) and futures price ($F$) converge at expiry. In reality, we often close a hedge before expiry or at a different location. The **Basis** is defined as:
+
 $$\text{Basis} = \text{Spot Price} - \text{Futures Price}$$
 
 * **Strengthening:** If the Basis increases ($S - F \uparrow$), it benefits a short hedger but hurts a long hedger.
@@ -41,6 +42,7 @@ When the asset being hedged is not the same as the underlying of the futures con
 
 ####  Derivation
 The change in the value of a hedged position is $\Delta P = \Delta S - h \Delta F$. To minimize risk, we minimize the variance:
+
 $$
 \begin{aligned}
 \operatorname{Var}(\Delta P) &= \operatorname{Var}(\Delta S) + \operatorname{Var}(h\Delta F) - 2 \operatorname{Cov}(\Delta S, h\Delta F) \\
@@ -50,10 +52,12 @@ $$
 
 
 Taking the derivative with respect to $h$ and setting it to zero:
-$$\frac{d}{dh} Var(\Delta P) = 2h \sigma_F^2 - 2 \rho \sigma_S \sigma_F = 0$$
+
+$$\frac{d}{dh} \operatorname{Var}(\Delta P) = 2h \sigma_F^2 - 2 \rho \sigma_S \sigma_F = 0$$
 
 Solving for the **Minimum Variance Hedge Ratio ($h^*$)**:
-$$h^* = \rho \frac{\sigma_S}{\sigma_F} = \frac{Cov(\Delta S, \Delta F)}{\sigma_F^2}$$
+
+$$h^* = \rho \frac{\sigma_S}{\sigma_F} = \frac{\operatorname{Cov}(\Delta S, \Delta F)}{\sigma_F^2}$$
 
 
 
@@ -61,15 +65,18 @@ $$h^* = \rho \frac{\sigma_S}{\sigma_F} = \frac{Cov(\Delta S, \Delta F)}{\sigma_F
 
 ###  Optimal Number of Contracts ($N^*$)
 Once $h^*$ is known, we calculate the number of contracts needed by adjusting for the size of the position ($Q_A$) and the size of one contract ($Q_F$):
+
 $$N^* = \frac{h^* Q_A}{Q_F}$$
 
 **Tailing the Hedge:** Because futures are settled daily, we usually "tail" the hedge to account for the interest earned on margin cash flows. We use the total dollar value ($V$):
+
 $$N^* = \hat{h} \frac{V_A}{V_F}$$
 
 ---
 
 ###  Hedging an Equity Portfolio
 To hedge a diversified stock portfolio, we use stock index futures. Instead of calculating a custom $h^*$, we use the portfolio's **Beta ($\beta$)**, which measures its sensitivity to the market index:
+
 $$N^* = \beta \frac{V_A}{V_F}$$
 
 * If $\beta > 1$, the portfolio is more volatile than the market, requiring more futures contracts for protection.
