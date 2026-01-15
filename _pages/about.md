@@ -37,4 +37,4 @@ Feel free to explore, and don't hesitate to reach out through any of the social 
 
 ---
 
-*Current interests: Deep learning, distributed systems, clean code, options theory*
+*Current interests: Deep learning, distributed systems, options theory*
