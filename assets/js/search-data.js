@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-1-reliable-scalable-and-maintainable-applications",
+        },{id: "post-ddia-ch-1-reliable-scalable-and-maintainable-applications",
         
-          title: "1. Reliable, Scalable, and Maintainable Applications",
+          title: "DDIA Ch 1: Reliable, Scalable, and Maintainable Applications",
         
         description: "Kleppman, Designing Data-Intensive Applications",
         section: "Posts",
