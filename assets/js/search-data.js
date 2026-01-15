@@ -56,7 +56,7 @@ ninja.data = [{
         
           title: "3. Hedging Strategies Using Futures",
         
-        description: "From Hull, Options, Futures, and Other Derivatives",
+        description: "Hull, Options, Futures, and Other Derivatives",
         section: "Posts",
         handler: () => {
           
