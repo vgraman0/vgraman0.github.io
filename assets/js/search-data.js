@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-ddia-ch-1-reliable-scalable-and-maintainable-applications",
+        },{id: "post-1-reliable-scalable-and-maintainable-applications",
         
-          title: "DDIA Ch 1: Reliable, Scalable, and Maintainable Applications",
+          title: "1. Reliable, Scalable, and Maintainable Applications",
         
         description: "Kleppman, Designing Data-Intensive Applications",
         section: "Posts",
@@ -52,9 +52,9 @@ ninja.data = [{
             window.location.href = "/blog/2026/hull-options-ch4/";
           
         },
-      },{id: "post-hull-ch-3-hedging-strategies-using-futures",
+      },{id: "post-3-hedging-strategies-using-futures",
         
-          title: "Hull Ch 3: Hedging Strategies Using Futures",
+          title: "3. Hedging Strategies Using Futures",
         
         description: "From Hull, Options, Futures, and Other Derivatives",
         section: "Posts",
