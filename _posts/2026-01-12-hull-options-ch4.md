@@ -11,9 +11,11 @@ related_posts: false
 
 ## Types of Rates
 
-- **Treasury rates**: Rates on T-bills and T-bonds, considered risk-free
-- **Overnight rates**: Fed funds rate in the US (other countries have similar systems). Arises from reserve requirements—banks with excess reserves lend overnight to banks with shortfalls.
-- **Repo rate**: Interest rate on a repurchase agreement, where securities are sold with an agreement to buy them back later. Effectively a collateralized loan.
+**Treasury rates**: Rates on T-bills and T-bonds, considered risk-free.
+
+**Overnight rates**: Fed funds rate in the US (other countries have similar systems). Arises from reserve requirements—banks with excess reserves lend overnight to banks with shortfalls.
+
+**Repo rate**: Interest rate on a repurchase agreement, where securities are sold with an agreement to buy them back later. Effectively a collateralized loan.
 
 ## Reference Rates
 
