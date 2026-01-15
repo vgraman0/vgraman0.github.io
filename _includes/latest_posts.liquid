@@ -37,6 +37,13 @@
               {% else %}
                 <a class="news-title" href="{{ item.redirect | relative_url }}">{{ item.title }}</a>
               {% endif %}
+              {% if item.categories.size > 0 %}
+                <span class="post-category" style="margin-left: 0.5rem; font-size: 0.85em; color: #888;">
+                  {% for category in item.categories %}
+                    <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}" style="color: inherit;">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+                  {% endfor %}
+                </span>
+              {% endif %}
             </td>
           </tr>
         {% endfor %}

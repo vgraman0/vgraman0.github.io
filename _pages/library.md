@@ -29,7 +29,7 @@ details h3 { font-size: 1rem; margin-top: 1rem; margin-bottom: 0.5rem; }
 
 ### Distributed Systems
 
-- <span class="status in-progress"></span>*Designing Data-Intensive Applications* - Martin Kleppmann — [notes](/blog/category/ddia/)
+- <span class="status in-progress"></span>*Designing Data-Intensive Applications* - Martin Kleppmann — [notes](/blog/category/kleppman-data-systems/)
 - *Software Architecture: The Hard Parts* - Neal Ford & Mark Richards
 
 ### Databases
