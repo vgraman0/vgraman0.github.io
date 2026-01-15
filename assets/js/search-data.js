@@ -41,11 +41,11 @@ ninja.data = [{
             window.location.href = "/blog/2026/ddia-ch1/";
           
         },
-      },{id: "post-hull-ch-4-interest-rates",
+      },{id: "post-4-interest-rates",
         
-          title: "Hull Ch 4: Interest Rates",
+          title: "4. Interest Rates",
         
-        description: "From Hull, Options, Futures, and Other Derivatives",
+        description: "Hull, Options, Futures, and Other Derivatives",
         section: "Posts",
         handler: () => {
           
