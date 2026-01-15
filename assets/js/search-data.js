@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/ddia-ch1/";
           
         },
+      },{id: "post-hull-ch-4-interest-rates",
+        
+          title: "Hull Ch 4: Interest Rates",
+        
+        description: "From Hull, Options, Futures, and Other Derivatives",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hull-options-ch4/";
+          
+        },
       },{id: "post-hull-ch-3-hedging-strategies-using-futures",
         
           title: "Hull Ch 3: Hedging Strategies Using Futures",
