@@ -2,7 +2,7 @@
 layout: post
 title: "3. Hedging Strategies Using Futures"
 date: 2026-01-11 12:00:00
-description: Hull, Options, Futures, and Other Derivatives
+description: "Using futures to hedge price risk, basis risk, and deriving the minimum variance hedge ratio"
 tags: options derivatives hedging
 categories: hull-options
 giscus_comments: false
