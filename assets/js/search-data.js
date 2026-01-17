@@ -56,7 +56,7 @@ ninja.data = [{
         
           title: "4. Interest Rates",
         
-        description: "Hull, Options, Futures, and Other Derivatives",
+        description: "Treasury rates, overnight rates, repo rates, and the transition from LIBOR to SOFR",
         section: "Posts",
         handler: () => {
           
@@ -67,7 +67,7 @@ ninja.data = [{
         
           title: "3. Hedging Strategies Using Futures",
         
-        description: "Hull, Options, Futures, and Other Derivatives",
+        description: "Using futures to hedge price risk, basis risk, and deriving the minimum variance hedge ratio",
         section: "Posts",
         handler: () => {
           
