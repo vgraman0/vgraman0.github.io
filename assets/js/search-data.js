@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-1-reliable-scalable-and-maintainable-applications",
+        },{id: "post-2-data-models-and-query-languages",
+        
+          title: "2. Data Models and Query Languages",
+        
+        description: "Kleppman, Designing Data-Intensive Applications",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ddia-ch2/";
+          
+        },
+      },{id: "post-1-reliable-scalable-and-maintainable-applications",
         
           title: "1. Reliable, Scalable, and Maintainable Applications",
         
