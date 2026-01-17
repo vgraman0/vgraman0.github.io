@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "2. Data Models and Query Languages",
         
-        description: "Kleppman, Designing Data-Intensive Applications",
+        description: "Comparing relational, document, and graph data models—and the query languages that accompany them",
         section: "Posts",
         handler: () => {
           
@@ -45,7 +45,7 @@ ninja.data = [{
         
           title: "1. Reliable, Scalable, and Maintainable Applications",
         
-        description: "Kleppman, Designing Data-Intensive Applications",
+        description: "The three fundamental concerns for building data systems: reliability, scalability, and maintainability",
         section: "Posts",
         handler: () => {
           
