@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "4. Interest Rates"
-date: 2026-01-12 12:00:00
+date: 2026-01-20 12:00:00
 description: "Treasury rates, overnight rates, repo rates, and the transition from LIBOR to SOFR"
 tags: options derivatives interest-rates
 categories: hull-options
