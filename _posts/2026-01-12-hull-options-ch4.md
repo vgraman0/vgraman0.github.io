@@ -89,7 +89,7 @@ $$R_F = \frac{R_2T_2 - R_1T_1}{T_2 - T_1}.$$
 
 ### Instantaneous rates
 
-The **instantaneous forward rate** $f(T)$ represents the interest rate at a specific instant in time.
+The **instantaneous forward rate** $f(T)$ represents the interest rate at a specific instant in time, i.e. the percentage growth rate of the investment at time $T$.
 
 Suppose $V(T)$ is the value of one dollar at time $T$. Then,
 $$f(T) := \frac{V'(T)}{V(T)}.$$
@@ -103,7 +103,11 @@ V'(T) &= e^{R(T)T} \frac{d}{dT} \left[R(T) T\right] \\
 \end{align*} 
 $$
 
-Where this gets interesting is that we have
+This gives the expression 
+
+$$f(T) = -\frac{\partial }{\partial t} \log V(t).$$
+
+Using the fundamental theorem of calculus,
 
 $$\int_0^T f(t)\, dt = -\int_0^T \frac{\partial}{\partial t} \log V(t)\,dt = - \left(\log V(T)  - \log V(0)\right).$$
 
@@ -116,6 +120,7 @@ Rearranging the expression, we obtain
 $$R(T) = \frac{1}{T} \int_0^T f(t)\,dt.$$
 
 In other words, the zero rate is the time-weighted average of the instantaneous forward rates between today and maturity.
+
 
 ## Duration
 
