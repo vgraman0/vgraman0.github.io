@@ -71,12 +71,14 @@ Suppose $R_1$ and $R_2$ are the zero rates for maturities $T_1$ and $T_2$ respec
 The forward rate $R_F$ is the rate we need to invest between $T_1$ and $T_2$ so that investing in at $R_2$ for $T_2$ years is equivalent to investing at $R_1$ for $T_1$ years and investing at $R_F$ between $T_1$ and $T_2$.
 
 Written out explicitly,
+
 $$
 \begin{align*}
 e^{R_2T_2} &= e^{R_1T_1} \cdot e^{R_F(T_2 - T_1)} \\
 &= e^{R_1T_1 + R_F(T_2 - T_1)}
 \end{align*}
 $$
+
 Because $e^x$ is a monotonic function, we can apply the inverse to both sides to obtain
 
 $$R_2T_2 = R_1T_1 + R_F(T_2 - T_1).$$
