@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-2-data-models-and-query-languages",
+        },{id: "post-4-interest-rates",
+        
+          title: "4. Interest Rates",
+        
+        description: "Treasury rates, overnight rates, repo rates, and the transition from LIBOR to SOFR",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hull-options-ch4/";
+          
+        },
+      },{id: "post-2-data-models-and-query-languages",
         
           title: "2. Data Models and Query Languages",
         
@@ -50,17 +61,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/ddia-ch1/";
-          
-        },
-      },{id: "post-4-interest-rates",
-        
-          title: "4. Interest Rates",
-        
-        description: "Treasury rates, overnight rates, repo rates, and the transition from LIBOR to SOFR",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/hull-options-ch4/";
           
         },
       },{id: "post-3-hedging-strategies-using-futures",
