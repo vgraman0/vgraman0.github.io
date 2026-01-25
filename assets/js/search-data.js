@@ -45,7 +45,7 @@ ninja.data = [{
         
           title: "4. Interest Rates",
         
-        description: "Treasury rates, overnight rates, repo rates, and the transition from LIBOR to SOFR",
+        description: "Technical overview of rate types (SOFR/LIBOR), bond pricing, yield sensitivity (Duration/Convexity) and forward rates.",
         section: "Posts",
         handler: () => {
           
