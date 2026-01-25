@@ -2,7 +2,7 @@
 layout: post
 title: "4. Interest Rates"
 date: 2026-01-20 12:00:00
-description: "Treasury rates, overnight rates, repo rates, and the transition from LIBOR to SOFR"
+description: "Technical overview of rate types (SOFR/LIBOR), bond pricing, yield sensitivity (Duration/Convexity) and forward rates."
 tags: options derivatives interest-rates
 categories: hull-options
 giscus_comments: false
@@ -62,6 +62,30 @@ $$c = \frac{P(1-d)m}{A},$$
 
 where $A$ is the value of the annuity that pays one dollar on each coupon payment date, $m$ is the number of coupon payments per year, and $d$ is the present value of one dollar received at the maturity of the bond.
 
+### Sensitivity
+
+When interest rates change $y$, the corresponding bond price will also change.
+
+To model this, we first approximate the change in a bond's price given a change in yield $\Delta y$ as 
+
+$$\Delta P \approx \frac{dP}{dy} \Delta y + \frac{1}{2} \frac{d^2 P}{dy^2} (\Delta y)^2.$$
+
+Normalizing by the bond price, we obtain
+
+$$\frac{\Delta P}{P} = -D \Delta y + \frac{C}{2}\left( \Delta y\right)^2$$
+
+where 
+
+$$D = -\frac{1}{P} \frac{dP}{dy}$$
+
+and 
+
+$$
+C = \frac{1}{P} \frac{d^2P}{dy^2}
+$$
+
+are the duration and convexity respectively. 
+
 ## Forward rates
 
 A **Forward Rate** is the interest rate for a future period of time that is implied by the interest rates we see in the market today.
@@ -120,8 +144,3 @@ Rearranging the expression, we obtain
 $$R(T) = \frac{1}{T} \int_0^T f(t)\,dt.$$
 
 In other words, the zero rate is the time-weighted average of the instantaneous forward rates between today and maturity.
-
-
-## Duration
-
-## Convexity
