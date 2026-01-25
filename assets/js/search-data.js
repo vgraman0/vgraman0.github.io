@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "3. Storage and Retrieval",
         
-        description: "",
+        description: "Indexes, B-trees vs LSM-trees, Column-Oriented Storage",
         section: "Posts",
         handler: () => {
           
