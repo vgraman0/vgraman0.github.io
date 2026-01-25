@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-4-interest-rates",
+        },{id: "post-3-storage-and-retrieval",
+        
+          title: "3. Storage and Retrieval",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ddia-ch3/";
+          
+        },
+      },{id: "post-4-interest-rates",
         
           title: "4. Interest Rates",
         
