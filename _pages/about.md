@@ -21,7 +21,7 @@ announcements:
 latest_posts:
   enabled: true # show recent blog posts
   scrollable: true
-  limit: 3 # show last 3 blog posts
+  limit: 4 # show last 3 blog posts
 ---
 
 Welcome to my personal technical website!
