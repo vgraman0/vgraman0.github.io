@@ -34,11 +34,22 @@ ninja.data = [{
         
           title: "4. Encoding and Evolution",
         
-        description: "",
+        description: "Data models (Avro/Protobuf), Schema Evolution, Dataflow Models",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2026/ddia-ch4/";
+          
+        },
+      },{id: "post-5-forward-future-prices",
+        
+          title: "5. Forward/Future Prices",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hull-options-ch5/";
           
         },
       },{id: "post-3-storage-and-retrieval",
