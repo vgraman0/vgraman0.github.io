@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-4-encoding-and-evolution",
+        },{id: "post-5-replication",
+        
+          title: "5. Replication",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ddia-ch5/";
+          
+        },
+      },{id: "post-4-encoding-and-evolution",
         
           title: "4. Encoding and Evolution",
         
