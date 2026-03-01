@@ -2,7 +2,7 @@
 layout: post
 title: "Skip Lists"
 date: 2026-02-28 00:00:00
-description: "Skip Lists:"
+description: "Skip Lists Memtables for LSM Trees"
 tags: database-internals rust
 categories: system-design 
 giscus_comments: false
