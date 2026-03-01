@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "Skip Lists",
         
-        description: "Skip Lists:",
+        description: "Skip Lists Memtables for LSM Trees",
         section: "Posts",
         handler: () => {
           
