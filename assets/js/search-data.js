@@ -30,9 +30,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-the-evolution-of-http",
+        },{id: "post-skip-lists",
         
-          title: "The Evolution of HTTP",
+          title: "Skip Lists",
+        
+        description: "Skip Lists:",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/skip-lists/";
+          
+        },
+      },{id: "post-http",
+        
+          title: "HTTP",
         
         description: "HTTP/1.0 through HTTP/3 — what changed and why",
         section: "Posts",
