@@ -15,11 +15,14 @@ Skip lists are typically preferred over balanced binary search trees since stora
 - Rebalancing a binary tree would require a global lock that would add a lot of overhead. 
 - Insertion in a skip list can be done using lock-free or wait-free algos (using compare-and-swap).
 
+
 ## Skip Lists
 
 A skip list is a probabilistic data structure that provides $O(\log n)$average-case search, insertion, and deletion within a sorted list of elements.
 
-![alt text](image-21.png)
+<p align="center">
+  <img src="/assets/img/skip-lists/image-21.png" width="650">
+</p>
 
 
 ### Search
