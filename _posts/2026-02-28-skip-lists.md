@@ -18,7 +18,7 @@ Skip lists are typically preferred over balanced binary search trees since stora
 
 ## Skip Lists
 
-A skip list is a probabilistic data structure that provides $O(\log n)$average-case search, insertion, and deletion within a sorted list of elements.
+A skip list is a probabilistic data structure that provides $O(\log n)$ average-case search, insertion, and deletion within a sorted list of elements.
 
 <p align="center">
   <img src="/assets/img/skip-lists/image-21.png" width="650">

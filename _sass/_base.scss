@@ -2,6 +2,36 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Difficulty badges
+.badge-difficulty {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.55em;
+  font-weight: 600;
+  vertical-align: middle;
+  letter-spacing: 0.03em;
+}
+
+.badge-must-know {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.badge-easy {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.badge-medium {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.badge-hard {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
 // Typography
 
 p,
@@ -938,6 +968,12 @@ code {
   // Inline code should wrap
   white-space: normal;
   word-wrap: break-word;
+}
+
+// Code inside pre blocks should preserve whitespace
+pre code {
+  white-space: pre;
+  word-wrap: normal;
 }
 
 // Transitioning Themes
