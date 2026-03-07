@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-mongodb-from-documents-to-distributed-transactions",
+        },{id: "post-mongodb-deep-dive",
         
-          title: "MongoDB: From Documents to Distributed Transactions",
+          title: "MongoDB Deep Dive",
         
-        description: "10 questions that walk through MongoDB internals — documents, indexing, schema design, aggregation pipelines, consistency tuning, and cross-shard transactions.",
+        description: "10 questions that walk through MongoDB internals: documents, indexing, schema design, aggregation pipelines, consistency tuning, and cross-shard transactions.",
         section: "Posts",
         handler: () => {
           
