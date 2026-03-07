@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-skip-lists",
+        },{id: "post-mongodb-from-documents-to-distributed-transactions",
+        
+          title: "MongoDB: From Documents to Distributed Transactions",
+        
+        description: "10 questions that walk through MongoDB internals — documents, indexing, schema design, aggregation pipelines, consistency tuning, and cross-shard transactions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mongodb/";
+          
+        },
+      },{id: "post-skip-lists",
         
           title: "Skip Lists",
         
