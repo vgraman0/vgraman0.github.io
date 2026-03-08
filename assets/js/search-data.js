@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "MongoDB Deep Dive",
         
-        description: "10 questions that walk through MongoDB internals: documents, indexing, schema design, aggregation pipelines, consistency tuning, and cross-shard transactions.",
+        description: "Interview-style questions that walk through MongoDB internals: documents, indexing, schema design, aggregation pipelines, CAP theorem, ACID transactions, and cross-shard transactions.",
         section: "Posts",
         handler: () => {
           
