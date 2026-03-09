@@ -151,17 +151,6 @@ ninja.data = [{
             window.location.href = "/blog/2026/hull-options-ch3/";
           
         },
-      },{id: "post-from-chicago-to-mumbai-a-year-of-shifting-gears-and-building-foundations",
-        
-          title: "From Chicago to Mumbai: A Year of Shifting Gears and Building Foundations",
-        
-        description: "2025 reflection + 2026 broad goals",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/welcome/";
-          
-        },
       },{id: "books-example-book-a-template-for-reviews",
           title: 'Example Book: A Template for Reviews',
           description: "",
