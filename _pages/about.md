@@ -37,4 +37,4 @@ Feel free to explore, and don't hesitate to reach out through any of the social 
 
 ---
 
-*Current interests: systems & architecture, deep learning, agentic systems
+*Current interests: systems & architecture, deep learning, operating systems, quantitative finance
