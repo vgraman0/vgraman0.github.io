@@ -30,18 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-1-systems",
-        
-          title: "1. Systems",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/pcsd-ch1/";
-          
-        },
-      },{id: "post-mongodb-deep-dive",
+        },{id: "post-mongodb-deep-dive",
         
           title: "MongoDB Deep Dive",
         
