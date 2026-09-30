@@ -1,0 +1,188 @@
+/*******************************************************************************
+ * Tufte-style overrides (after https://edwardtufte.github.io/tufte-css/).
+ * Imported last so it wins over the default al-folio styles.
+ ******************************************************************************/
+
+$tufte-serif: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+$tufte-sans: "Gill Sans", "Gill Sans MT", Lato, Calibri, sans-serif;
+$tufte-mono: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+$tufte-cream: #fffff8;
+$tufte-red: #a00000;
+
+@font-face {
+  font-family: "et-book";
+  src: url("../fonts/et-book/et-book-roman-line-figures.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "et-book";
+  src: url("../fonts/et-book/et-book-display-italic-old-style-figures.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "et-book";
+  src: url("../fonts/et-book/et-book-bold-line-figures.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "et-book-roman-old-style";
+  src: url("../fonts/et-book/et-book-roman-old-style-figures.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Colors
+
+:root {
+  --global-bg-color: #{$tufte-cream};
+  --global-text-color: #111111;
+  --global-text-color-light: #6b6b6b;
+  --global-theme-color: #{$tufte-red};
+  --global-hover-color: #{$tufte-red};
+  --global-card-bg-color: #{$tufte-cream};
+  --global-code-bg-color: rgba(0, 0, 0, 0.04);
+  --global-footer-bg-color: #{$tufte-cream};
+  --global-footer-text-color: #6b6b6b;
+  --global-footer-link-color: #{$tufte-red};
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #151515;
+  --global-text-color: #ddddd5;
+  --global-text-color-light: #9a9a92;
+  --global-theme-color: #e06c6c;
+  --global-hover-color: #e06c6c;
+  --global-card-bg-color: #151515;
+  --global-footer-bg-color: #151515;
+  --global-footer-text-color: #9a9a92;
+  --global-footer-link-color: #e06c6c;
+}
+
+// Typography
+
+body {
+  font-family: $tufte-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  background-color: var(--global-bg-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-numeric: lining-nums;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.card-title {
+  font-family: $tufte-serif;
+  font-weight: 400;
+}
+
+h3,
+h4 {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+.post .post-content {
+  p,
+  li {
+    text-align: justify;
+    hyphens: auto;
+  }
+}
+
+a,
+table.table a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+}
+
+// Inline links in prose read as body text with a thin underline, as in Tufte CSS.
+.post-content p > a,
+.post-content li > a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: $tufte-mono;
+}
+
+// Navbar: small-caps sans links, no shadow or border
+
+.navbar {
+  border-bottom: none;
+  opacity: 1;
+}
+
+.navbar.navbar-light {
+  .navbar-brand,
+  .navbar-nav .nav-item .nav-link {
+    font-family: $tufte-sans;
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+  }
+
+  .navbar-brand .font-weight-bold {
+    font-weight: normal !important;
+    color: inherit;
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.35em;
+  }
+}
+
+// Footer: plain text on the page background
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  font-family: $tufte-sans;
+  font-size: 0.8rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+// Horizontal rules fade out at both ends
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, var(--global-text-color-light), transparent);
+}
